@@ -9,7 +9,7 @@ kind: Deployment
 metadata:
   name: {{ .Release.Name }}
   namespace: {{ .Values.Namespace}}
-  labels: {{ include "common.selector" . | nindent 6}}
+  labels: {{ include "common.selector" . | nindent 4}}
 spec:
   replicas: {{ .Values.Deployment.Replicas}}
   template:
