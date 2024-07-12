@@ -14,4 +14,4 @@ spec:
       targetPort: {{ .Values.Service.PortS3}}
       name: s3
       nodePort: {{ .Values.Service.NodePortS3}}
-  type: NodePort
+  type: {{ .Values.Service.Type}}

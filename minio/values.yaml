@@ -10,6 +10,7 @@ Service:
   PortS3: 9000
   NodePortConsole: 31002
   NodePortS3: 31003
+  Type: NodePort
 PVC:
   Storage: 10Gi
   storageClassName: longhorn-storage-delete
@@ -19,3 +20,4 @@ Ingress:
   Host: minio.prod.bangpdk.dev
   Service: minio
   Port: 9090
+  
