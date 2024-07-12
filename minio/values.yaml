@@ -13,3 +13,9 @@ Service:
 PVC:
   Storage: 10Gi
   storageClassName: longhorn-storage-delete
+
+Ingress:
+  Name: minio.prod.bangpdk.dev
+  Host: minio.prod.bangpdk.dev
+  Service: minio
+  Port: 9090
