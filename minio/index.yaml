@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  minio:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-07-12T15:53:10.5045755+07:00"
+    description: A Helm chart minio for Kubernetes
+    digest: 21b0f594813a58fca955ac055f371c16a5f1c9cf0e15091b780e44190c77b1f7
+    name: minio
+    type: application
+    urls:
+    - publish/minio-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-07-12T15:53:10.5045755+07:00"
