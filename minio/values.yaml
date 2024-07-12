@@ -8,8 +8,8 @@ Deployment:
 Service:
   PortConsole: 9090
   PortS3: 9000
-  NodePortConsole: 31001
-  NodePortS3: 31002
+  NodePortConsole: 31002
+  NodePortS3: 31003
 PVC:
   Storage: 10Gi
   storageClassName: longhorn-storage-delete
