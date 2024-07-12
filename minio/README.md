@@ -22,3 +22,16 @@ helm template [name] [name_chart]
 helm package [path_source_helm_chart] -d ./publish/
 helm repo index ./
 ```
+
+**Hướng dẫn add repo trên github**
+
+```
+helm repo add sample 'https://raw.githubusercontent.com/kmzfs/helm-repo-in-github/master/'
+helm repo update
+```
+
+**Nếu git ở chế độ private**
+
+```
+$ helm repo add sample 'https://MY_PRIVATE_TOKEN@raw.githubusercontent.com/kmzfs/helm-repo-in-github/master/'
+```
