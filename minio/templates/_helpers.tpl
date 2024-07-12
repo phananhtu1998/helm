@@ -9,9 +9,9 @@ app: minio
 {{/* Common secretkey */}}
 {{- define "common.secretkey" -}}
 - name: MINIO_ACCESS_KEY
-  value: "minio"
+  value: "admin"
 - name: MINIO_SECRET_KEY
-  value: "minio123"
+  value: "thaco@1234"
 {{- end }}
 {{/* Common livenessProbe */}}
 {{- define "common.livenessProbe" -}}
