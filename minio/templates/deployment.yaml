@@ -39,4 +39,4 @@ spec:
               - minio server /data --console-address :9090
       restartPolicy: Always
   selector:
-    matchLabels: {{ include "common.labels" . | nindent 6}}
+    matchLabels: {{ include "common.selector" . | nindent 6}}
