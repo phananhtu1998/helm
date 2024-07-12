@@ -1,0 +1,15 @@
+Namespace: minio 
+
+Deployment:
+  Replicas: 1
+  ClaimName: minio
+  Containers: minio-dev 
+  Images: quay.io/minio/minio:latest
+Service:
+  PortConsole: 9090
+  PortS3: 9000
+  NodePortConsole: 31001
+  NodePortS3: 31002
+PVC:
+  Storage: 10Gi
+  storageClassName: longhorn-storage-delete

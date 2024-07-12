@@ -1,0 +1,3 @@
+USERMAME: minioadmin
+
+PASSWORD: minioadmin

@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}
+  namespace: {{ .Values.Namespace}}
+spec:
+  selector: {{ include "common.selector" . | nindent 6}}
+  ports:
+    - port: {{ .Values.Service.PortConsole}}
+      targetPort: {{ .Values.Service.PortConsole}}
+      name: console
+      nodePort: {{ .Values.Service.NodePortConsole}}
+    - port: {{ .Values.Service.PortS3}}
+      targetPort: {{ .Values.Service.PortS3}}
+      name: s3
+      nodePort: {{ .Values.Service.NodePortS3}}
+  type: NodePort
