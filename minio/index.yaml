@@ -3,9 +3,9 @@ entries:
   minio:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-13T09:37:53.54107+07:00"
-    description: A Helm chart minio for Kubernetes cluster TEAMAITHACOINDUSTRIES
-    digest: 5b4982e19844ed2e1987322a511e49501debeb6a9d22f48306dec0b9f6c8af75
+    created: "2024-07-13T09:42:33.3280729+07:00"
+    description: MinIO for Kubernetes cluster TEAMAITHACOINDUSTRIES
+    digest: 62edabd60f90d4aebed65083db6a30b8e99229144dd6f1ebd09f1aa574acfd1d
     name: minio
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-13T09:37:53.54107+07:00"
+    created: "2024-07-13T09:42:33.3263119+07:00"
     description: A Helm chart minio for Kubernetes
     digest: 21b0f594813a58fca955ac055f371c16a5f1c9cf0e15091b780e44190c77b1f7
     name: minio
@@ -21,4 +21,4 @@ entries:
     urls:
     - publish/minio-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-13T09:37:53.5357167+07:00"
+generated: "2024-07-13T09:42:33.3257643+07:00"
