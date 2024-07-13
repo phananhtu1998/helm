@@ -1,6 +1,6 @@
 apiVersion: v2
 name: minio
-description: A Helm chart minio for Kubernetes
+description: A Helm chart minio for Kubernetes cluster TEAMAITHACOINDUSTRIES
 type: application
-version: 0.1.0
+version: 0.1.1
 appVersion: "1.16.0"
