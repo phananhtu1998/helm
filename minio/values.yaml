@@ -20,4 +20,9 @@ Ingress:
   Host: minio.prod.bangpdk.dev
   Service: minio
   Port: 9090
+IngressUpload:
+  Name: minioupload.prod.bangpdk.dev
+  Host: minioupload.prod.bangpdk.dev
+  Service: minio
+  Port: 9000
   
