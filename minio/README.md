@@ -35,3 +35,27 @@ helm repo update
 ```
 $ helm repo add sample 'https://MY_PRIVATE_TOKEN@raw.githubusercontent.com/kmzfs/helm-repo-in-github/master/'
 ```
+
+**Lệnh search repo**
+
+```
+helm search repo postgres
+```
+
+**Lệnh PULL chart**
+
+```
+helm pull bitnami/postgresql-ha
+```
+
+**Lệnh giải nén**
+
+```
+tar -zxf postgresql-ha-15.0.0.tgz
+```
+
+**Lệnh cài chart**
+
+```
+ helm install postgresha -n postgres ../postgresql-ha/
+```
